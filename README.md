@@ -15,6 +15,8 @@ PSEUDO:
 LABEL:
 etc code
 
+NORMAL:
+
 Enable Add in the ALU                    ADD
 
 Enable Subtract in the ALU				       SUB
