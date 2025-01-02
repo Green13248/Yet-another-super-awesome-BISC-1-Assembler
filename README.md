@@ -10,6 +10,8 @@ Done
 
 BISC is my own machine instruction set, it currently only exists in my mind.
 
+Registers are a, b, c and d and are declared as !A
+
 PSEUDO:
 
 LABEL:
@@ -50,22 +52,40 @@ Bus to RAM (Address)				             BTR, $0x10
 RAM to Bus (Address)				             RTB, $0x10
 
 Bus to Stack						                 BTS
-Stack to Bus						
-Bus to Serial						
-Serial to Bus						
-Bus to Serial 2						
-Serial 2 to Bus						
-Bus to Expansion					
+
+Stack to Bus                             STB
+
+Bus to Serial		                         
+
+Serial to Bus			
+
+Bus to Serial 2				
+
+Serial 2 to Bus					
+
+Bus to Expansion				
+
 Expansion to Bus					
+
 Data to Bus (Data)					
+
 NOP							
+
 Serial input buffer on/off				
+
 Serial 2 input buffer on/off				
+
 Halt							
+
 Clear ALU Accumulator 1 aka A			
+
 Clear ALU Accumulator 2 aka B			
+
 Jump if zero flag is true (Location)				
+
 Jump if zero flag is false (Location)	
+
 Set zero flag false
+
 *Second last bit of instruction is for follow flag ex: 0”1”001101
 
